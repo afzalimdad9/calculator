@@ -4,7 +4,8 @@
   "description": "",
   "main": "bakend/main.js",
   "scripts": {
-    "dev": "nodemon bakend/main.js"
+    "dev": "nodemon bakend/main.js",
+    "custom-build": "npm i && cd client && npm i && npm run build"
   },
   "keywords": [],
   "author": "",
